@@ -1,0 +1,175 @@
+* {
+    font-family: Calibri;
+}
+
+body {
+    background: #d6e7ff;
+    color: black;
+}
+
+.menu a {
+    color: #2F4F4F;
+    font-size: 14pt;
+    line-height: 75px;
+    text-decoration: none;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.menu a:hover {
+    background: #0078BF;
+    color: #fff;
+}
+
+.logo_img {
+    margin-right: 5px;
+}
+
+.descript_headers {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.descript_headers:first-letter {
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.descript_short_text {
+    color: gray;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.descript_detail_text {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+/*
+.descript_specifications {
+    color: #33459c;
+    list-style-type: disc;
+    list-style-image: url("pictures/pictmarker.png");
+    line-height: 1.8;
+    column-count: 3;
+}
+*/
+
+.catalog_img {
+    width: 250px;
+    border: 3px solid #0067A3;
+    border-radius: 8%;
+}
+
+figure {
+    float: left;
+    margin: 0 90px 0 0;
+    text-align: center;
+}
+
+figcaption {
+    text-decoration: none;
+    /* Почему не работает??? */
+    color: #2F4F4F;
+}
+
+.descript_img {
+    width: 400px;
+    border: 3px solid #0067A3;
+    border-radius: 8%;
+}
+
+.descript_img:hover {
+    border: 3px solid #d6e7ff;
+}
+
+label {
+    padding: 6px 0 4px 10px;
+}
+
+#name,
+#email,
+#phone,
+#theme,
+#area {
+    width: 200px;
+    font-size: 14px;
+    padding: 6px 0 4px 10px;
+    border: 2px solid #cecece;
+    background: #e8ecff;
+    border-radius: 15px;
+    color: #008CDF;
+    outline: none;
+    text-transform: capitalize;
+}
+
+#area {
+    width: 300px;
+    font-size: 16px;
+}
+
+#send {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 2px solid #cecece;
+    background: #e8ecff;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#email:focus {
+    background-color: #008CDF;
+    color: white;
+}
+
+.descript_table {
+    border-collapse: collapse;
+    line-height: 1.1;
+    color: #0C213B;
+}
+
+.descript_table th {
+    text-align: left;
+    font-size: 17px;
+    padding: 4px 10px;
+    border: 2px solid #0067A3;
+}
+
+.descript_table td {
+    text-align: left;
+    font-size: 15px;
+    padding: 4px 10px;
+    border: 2px solid #0067A3;
+}
+
+.index_table {
+    border-collapse: collapse;
+    line-height: 1;
+    color: #0C213B;
+}
+
+.index_table th {
+    color: #08659c;
+    text-align: center;
+    font-size: 18px;
+    border: 3px solid #0067A3;
+    font-family: cursive;
+    -webkit-transform: rotate(90deg);
+}
+
+.index_table td {
+    color: #08659c;
+    text-align: center;
+    font-size: 18px;
+    padding: 25px 18px;
+    border: 3px solid #0067A3;
+    font-family: cursive;
+}
